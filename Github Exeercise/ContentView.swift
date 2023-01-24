@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Version 1.0")
                 .fontWeight(.black)
                 .font(.largeTitle)
+            Rectangle()
         }
         .padding()
         .foregroundColor(.green)
